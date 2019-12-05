@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "リモコン",
+            "intents": [
+                {
+                    "name": "AirConOnHandlerIntent",
+                    "slots": [],
+                    "samples": [
+                        "エアコンつけて",
+                        "暖房つけて"
+                    ]
+                },
+                {
+                    "name": "AirConOffHandlerIntent",
+                    "slots": [],
+                    "samples": [
+                        "エアコン消して",
+                        "暖房けして",
+                        "暖房とめて"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "はい",
+                        "いいよ"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "だめ",
+                        "ちがう"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
